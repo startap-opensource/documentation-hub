@@ -13,10 +13,10 @@ export const pythonTools = [
     /**
      * Python related tools
      */
-    {name: 'Python Docs', url: 'https://www.python.org/doc/', logo: ''},
-    {name: 'Django Project', url: 'https://docs.djangoproject.com/', logo: ''},
-    {name: 'Flask', url: 'https://flask.palletsprojects.com/en/2.0.x/', logo: ''},
-    {name: 'FastAPI', url: 'https://fastapi.tiangolo.com/', logo: ''},
+    {name: 'Python Docs', url: 'https:/www.python.org/doc/', logo: 'backend/python.svg'},
+    {name: 'Django Project', url: 'https://docs.djangoproject.com/', logo: 'backend/django.svg'},
+    {name: 'Flask', url: 'https://flask.palletsprojects.com/en/2.0.x/', logo: 'backend/flask-logo.png'},
+    {name: 'FastAPI', url: 'https://fastapi.tiangolo.com/', logo: 'backend/fastapi.png'},
 ]
 
 /**
