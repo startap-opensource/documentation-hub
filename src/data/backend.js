@@ -1,29 +1,22 @@
-const languages = {
-    php: 'PHP',
-    python: 'Python',
-    javascript: 'Javascript',
-    java: 'Java',
-}
-
 /**
  * PHP related tools
  */
 export const phpTools = [
-    {name: 'PHP Language Documentation', language: languages.php, url: 'https://www.php.net/docs'},
-    {name: 'Laravel', language: languages.php, url: 'https://laravel.com/docs'},
-    {name: 'CodeIgniter', language: languages.php, url: 'https://codeigniter.com/user_guide/index.html'},
-    {name: 'Symfony', language: languages.php, url: 'https://symfony.com/doc/current/index.html'},
-    {name: 'CakePHP', language: languages.php, url: 'https://book.cakephp.org/4/en/index.html'},
+    {name: 'PHP Docs', url: 'https://www.php.net/docs', logo: 'backend/php.svg'},
+    {name: 'Laravel', url: 'https://laravel.com/docs', logo: 'backend/laravel.svg'},
+    {name: 'CodeIgniter', url: 'https://codeigniter.com/user_guide/index.html', logo: 'backend/codeigniter.svg'},
+    {name: 'Symfony', url: 'https://symfony.com/doc/current/index.html', logo: 'backend/symfony.svg'},
+    {name: 'CakePHP', url: 'https://book.cakephp.org/4/en/index.html', logo: 'backend/cake-logo.svg'},
 ]
 
 export const pythonTools = [
     /**
      * Python related tools
      */
-    {name: 'Python Language Documentation', language: languages.python, url: 'https://www.python.org/doc/'},
-    {name: 'Django Project', language: languages.python, url: 'https://docs.djangoproject.com/'},
-    {name: 'Flask', language: languages.python, url: 'https://flask.palletsprojects.com/en/2.0.x/'},
-    {name: 'FastAPI', language: languages.python, url: 'https://fastapi.tiangolo.com/'},
+    {name: 'Python Docs', url: 'https://www.python.org/doc/', logo: ''},
+    {name: 'Django Project', url: 'https://docs.djangoproject.com/', logo: ''},
+    {name: 'Flask', url: 'https://flask.palletsprojects.com/en/2.0.x/', logo: ''},
+    {name: 'FastAPI', url: 'https://fastapi.tiangolo.com/', logo: ''},
 ]
 
 /**
