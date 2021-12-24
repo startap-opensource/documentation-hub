@@ -9,6 +9,6 @@ import Homepage from '@/components/Home';
 
 export default {
   name: 'App',
-  components: { BaseHeader, Homepage }
+  components: { BaseHeader, Homepage },
 }
 </script>
