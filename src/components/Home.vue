@@ -1,17 +1,16 @@
 <template>
   <homepage-hero />
-
-  <div class="my-2">
-    <backend-tools></backend-tools>
-  </div>
+  <backend-tools />
+  <frontend-tools />
 </template>
 
 <script>
+import HomepageHero from "@/components/sections/HomepageHero"
 import BackendTools from '@/components/sections/BackendTools'
-import HomepageHero from "@/components/sections/HomepageHero";
+import FrontendTools from "@/components/sections/FrontendTools"
 
 export default {
   name: "Homepage",
-  components: {HomepageHero, BackendTools},
+  components: {HomepageHero, BackendTools, FrontendTools},
 }
 </script>
