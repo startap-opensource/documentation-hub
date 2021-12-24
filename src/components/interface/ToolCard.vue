@@ -32,7 +32,10 @@ export default {
 
   methods: {
     getToolImage(logoImage) {
-      return require(`/src/assets/logos/${logoImage}`);
+      if (logoImage)
+        return require(`/src/assets/logos/${logoImage}`)
+
+      return ''
     },
   }
 }
