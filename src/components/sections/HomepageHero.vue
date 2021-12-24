@@ -2,21 +2,21 @@
   <div class="hero min-h-screen bg-base-200">
     <div class="flex-col-reverse hero-content lg:flex-row">
       <div class="max-w-2xl">
-        <h1 class="animate__animated animate__fadeInDown animate__delay-1s mb-5 text-5xl font-bold">
+        <h1 class="animate__animated animate__fadeIn animate__faster animate__delay-2s mb-5 text-5xl font-bold">
           A single place to find your documentation.
         </h1>
 
-        <p class="mb-5 animate__animated animate__fadeInDown animate__delay-2s animate__faster">
+        <p class="mb-5 animate__animated animate__fadeIn animate__delay-2s animate__faster">
           Find and search any documentation used on your project.
           <br>
           <i>(Or submit a pull request to update this amazing tool that we built together!)</i>
         </p>
-        <div class="animate__animated animate__fadeInDown animate__delay-3s animate__faster">
+        <div class="animate__animated animate__fadeInUp animate__delay-2s animate__fast">
           <button class="btn btn-primary">Search a tool</button>
         </div>
       </div>
 
-      <div class="max-w-lg animate__animated animate__fadeInRight">
+      <div class="max-w-lg animate__animated animate__fadeIn animate__delay-2s">
         <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="786.81995" height="572.25773"
              viewBox="0 0 786.81995 572.25773" class="w-full">
           <circle cx="458.32136" cy="74.18162" r="26.70075" fill="#f2f2f2"/>
