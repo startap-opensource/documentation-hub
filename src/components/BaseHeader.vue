@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content">
+  <div class="navbar fixed shadow-lg w-full bg-primary text-primary-content z-50">
     <div class="flex-none hidden lg:flex">
       <button class="btn btn-square btn-ghost">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
