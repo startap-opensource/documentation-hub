@@ -38,3 +38,5 @@ jobs:
           password: ${{ secrets.ftp_password }}
           port: ${{ secrets.ftp_port }}
           server-dir: ${{ secrets.ftp_path }}
+          local-dir: ./dist/
+          protocol: ftps
