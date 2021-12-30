@@ -4,6 +4,7 @@ on:
   release:
     types:
       - released
+      - edited
 
 jobs:
   Build-App:
@@ -39,4 +40,4 @@ jobs:
           port: ${{ secrets.ftp_port }}
           server-dir: ${{ secrets.ftp_path }}
           local-dir: ./dist/
-          protocol: ftps
+          protocol: sftp
