@@ -1,22 +1,24 @@
 <template>
   <div class="hero min-h-screen bg-base-200">
-    <div class="flex-col-reverse hero-content lg:flex-row">
-      <div class="max-w-2xl">
+    <div class="hero-content flex-col pt-24 md:pt-0 md:flex-row pt-2">
+      <div class="max-w-2xl text-center md:text-left">
         <h1 class="animate__animated animate__fadeIn animate__faster animate__delay-2s mb-5 text-5xl font-bold">
-          A single place to find your documentation.
+          A Developer's Documentation Hub.
         </h1>
 
         <p class="mb-5 animate__animated animate__fadeIn animate__delay-2s animate__faster">
-          Find and search any documentation used on your project.
-          <br>
-          <i>(Or submit a pull request to update this amazing tool that we built together!)</i>
+          Find the documentation that you need to your project. It's all in one place.
         </p>
         <div class="animate__animated animate__fadeInUp animate__delay-2s animate__fast">
-          <button class="btn btn-primary">Search a tool</button>
+          <a
+            class="btn btn-primary"
+            href="#container-tools"
+          >
+            See all tools
+          </a>
         </div>
       </div>
-
-      <HeroImage/>
+      <HeroImage />
     </div>
   </div>
 </template>

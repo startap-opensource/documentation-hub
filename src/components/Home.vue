@@ -1,7 +1,9 @@
 <template>
-  <homepage-hero />
-  <backend-tools />
-  <frontend-tools />
+  <div>
+    <homepage-hero />
+    <backend-tools />
+    <frontend-tools />
+  </div>
 </template>
 
 <script>
