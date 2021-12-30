@@ -41,4 +41,4 @@ jobs:
         run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy application with rSync
-        run: rsync -avz ./dist/ ${{ secrets.SSH_USER }}@{{ secrets.SSH_HOST }}:${{ secrets.SSH_PATH }}
+        run: rsync -avz ./dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.SSH_PATH }}
