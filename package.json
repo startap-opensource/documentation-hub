@@ -10,7 +10,7 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "autoprefixer": "^9",
-    "core-js": "^3.20.1",
+    "core-js": "^3.20.3",
     "daisyui": "^1.25.3",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
